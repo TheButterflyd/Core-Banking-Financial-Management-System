@@ -32,7 +32,8 @@ Open `index.html` in a browser. No build step, no server.
 Details per stage: see the ai-log/ folder.
 
 ## AI log for stage 1
-Open ai-logfile.
+Details per stage: see the ai-log/ folder.
+
 
 ## Status
 - [x] Stage 1: static mockup
