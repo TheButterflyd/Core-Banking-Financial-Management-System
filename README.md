@@ -1,6 +1,6 @@
 # Core Banking Financial Management System
 
-Two-line description: Manages secure customer records, multi-currency accounts, loans and ACID-compliant transaction processing for banks and financial institutions. Intended for banks, credit unions, and developers building core-banking prototypes.
+     Manages secure customer records, multi-currency accounts, loans and ACID-compliant transaction processing for banks and financial institutions. Intended for banks, credit unions, and developers building core-banking prototypes.
 
 ## Data model
 | Field | Type | Notes |
@@ -26,9 +26,13 @@ Open `index.html` in a browser. No build step, no server.
 ## AI usage
 | Tool | Used for |
 | -------------- | ----------------------------------------- |
-| ChatGPT | database schema design, transaction flow, ACID considerations, UI mockup suggestions |
+| Gemini Ai | Transaction flow, ACID considerations, UI mockup suggestions |
+| Copilot Ai | Used for HTML interface and CSS design for bigger and smaller screens.
 
 Details per stage: see the ai-log/ folder.
+
+## AI log for stage 1
+Open ai-logfile.
 
 ## Status
 - [x] Stage 1: static mockup
