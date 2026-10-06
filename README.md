@@ -37,6 +37,6 @@ Details per stage: see the ai-log/ folder.
 
 ## Status
 - [x] Stage 1: static mockup
-- [ ] Stage 2: data logic in JavaScript
-- [ ] Stage 3: database schema & migrations
+- [x] Stage 2: data logic in JavaScript
+- [ ] Stage 3: Vite and React projectons
 - [ ] Stage 4: backend transaction processing & tests

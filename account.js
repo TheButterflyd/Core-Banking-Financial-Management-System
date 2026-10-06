@@ -12,7 +12,7 @@ function listAccounts(accounts) {
   console.groupEnd();
 }
 
-// TESTEAZĂ: listAccounts(accountData);
+// Testam: listAccounts(accountData);
 
 // functia de numarare //
 function countActiveAccounts(accounts) {
@@ -21,7 +21,7 @@ function countActiveAccounts(accounts) {
   return active;
 }
 
-// TESTEAZĂ: countActiveAccounts(accountData);
+// Testam: countActiveAccounts(accountData);
 
 // Functia de cautare cont dupa numar //
 function findAccount(accounts, accountNumber) {
@@ -35,7 +35,7 @@ function findAccount(accounts, accountNumber) {
   }
 }
 
-// TESTEAZĂ: findAccount(accountData, 'RO12BANK0000000001');
+// Testam findAccount(accountData, 'RO12BANK0000000001');
 
 
 
@@ -62,7 +62,7 @@ function deposit(accounts, accountNumber, amount) {
   return newAccounts;
 }
 
-// TESTEAZĂ: accountData = deposit(accountData, 'RO12BANK0000000001', 500);
+// Testam: accountData = deposit(accountData, 'RO12BANK0000000001', 500);
 
 
 
@@ -84,7 +84,7 @@ function toggleAccountStatus(accounts, accountNumber) {
   return newAccounts;
 }
 
-// TESTEAZĂ: accountData = toggleAccountStatus(accountData, 'RO12BANK0000000001');
+// Testam: accountData = toggleAccountStatus(accountData, 'RO12BANK0000000001');
 
 //  Functie pt stergerea unui cont //
 function deleteAccount(accounts, accountNumber) {
@@ -107,9 +107,9 @@ function deleteAccount(accounts, accountNumber) {
   return newAccounts;
 }
 
-// TESTEAZĂ: accountData = deleteAccount(accountData, 'GB29BANK0000000002');
+// Testam: accountData = deleteAccount(accountData, 'GB29BANK0000000002');
 
-// ===== Functie statistici =====
+//  Functie statistici //
 function getAccountStatistics(accounts) {
   console.group(' STATISTICI');
   
