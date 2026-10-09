@@ -5,7 +5,7 @@ const accountData = [
 
 // Functia listare //
 function listAccounts(accounts) {
-  console.group('📋 LISTA CONTURI');
+  console.group(' LISTA CONTURI');
   accounts.forEach(acc => {
     console.log(`${acc.accountNumber} — ${acc.type} — ${acc.balance} ${acc.currency} — ${acc.status}`);
   });
