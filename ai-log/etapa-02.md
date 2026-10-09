@@ -8,7 +8,7 @@ MAI-Code-1.1-Flash
 
 ---
 
-## 1) Întrebarea inițială
+## 1 Întrebarea inițială
 User:
 "ce fisier js pot integra, ceva simplu pentru poriectul meu?"
 
@@ -23,7 +23,7 @@ Recomand să începi cu account.js, deoarece este cel mai logic pentru Stage 2: 
 
 ---
 
-## 2) Clarificare: „doar unul trebuie”
+## 2 Clarificare: „doar unul trebuie”
 User:
 "doar unul trebuie"
 
@@ -34,7 +34,7 @@ Apoi a oferit un exemplu de cod pentru `account.js` cu clasa `Account` și metod
 
 ---
 
-## 3) Întrebarea: „bun si cum s-ar vedea vizual?”
+## 3 Întrebarea: „bun si cum s-ar vedea vizual?”
 User:
 "bun si cum s-ar vedea vizual?"
 
@@ -49,7 +49,7 @@ Assistant:
 
 ---
 
-## 4) Referire la index-ul proiectului
+## 4 Referire la index-ul proiectului
 User:
 [trimis attachment pentru `index.html`, sumarizat]
 
@@ -58,7 +58,7 @@ Assistant:
 
 ---
 
-## 5) Întrebarea simplă: „ce fisier js as putea face pentru platofr amea? ceva scurt sa pot verifica in consola in google”
+## 5 Întrebarea simplă: „ce fisier js as putea face pentru platofr amea? ceva scurt sa pot verifica in consola in google”
 User:
 "ce fisier js as putea face pentru platofr amea? ceva scurt sa pot verifica in consola in google"
 
@@ -121,7 +121,7 @@ Assistant:
 
 ---
 
-## 7) Cerința completă de etapă 2
+## 7 Cerința completă de etapă 2
 User:
 "Să se mute datele aplicației din pagina HTML într-un fișier JavaScript, sub forma unui array de obiecte,
 și să se scrie funcțiile de bază ale aplicației: listarea titlurilor, numărarea elementelor active, căutarea,
@@ -332,7 +332,7 @@ Testare în consolă:
 
 ---
 
-## 8) Simplificare și schimbarea temei
+## 8 Simplificare și schimbarea temei
 User:
 "dar ceva sa fie mai usor de inteles si poate chiar alta tema pt proiectul meu, nu neaparat conturi"
 
@@ -349,7 +349,7 @@ Apoi s-a dat un exemplu cu `customersData` și funcțiile:
 
 ---
 
-## 9) Întrebarea: „bun si astea se vad si interfata html?”
+## 9 Întrebarea: „bun si astea se vad si interfata html?”
 User:
 "bun si astea se vad si interfata html?"
 
@@ -362,7 +362,7 @@ Apoi a explicat că pentru a le vedea și în pagină ar trebui adăugat cod HTM
 
 ---
 
-## 10) Cererea pentru codul JS pentru conturi și explicații
+## 10 Cererea pentru codul JS pentru conturi și explicații
 User:
 "bun si da-mi codul js pentru conturi de ex, si explica-l sa stiu si eu"
 
@@ -385,7 +385,7 @@ A oferit un fișier complet `account.js` cu:
 
 ---
 
-## 11) Întrebarea: „unde ai folosit map filter etc?”
+## 11 Întrebarea: „unde ai folosit map filter etc?”
 User:
 "unde ai folosit map filter etc?"
 
@@ -401,7 +401,7 @@ Apoi a dat exemple concrete de fiecare.
 
 ---
 
-## 12) Întrebarea: „ce face fiecare functie din astea?”
+## 12 Întrebarea: „ce face fiecare functie din astea?”
 User:
 "ce face fiecare functie din astea?"
 
@@ -422,7 +422,7 @@ Apoi a explicat pentru fiecare metoda folosită și zestrea în tabel."
 
 ---
 
-## 13) Întrebarea: „pt ce se foloseste dolarul in cod?”
+## 13 Întrebarea: „pt ce se foloseste dolarul in cod?”
 User:
 "pt ce se foloseste dolarul in cod?"
 
@@ -440,7 +440,7 @@ A explicat că în codul anterior exista un exemplu greșit și trebuia folosit 
 
 ---
 
-## 14) Cererea de share/log în fișier
+## 14 Cererea de share/log în fișier
 User:
 "cum pot da share la aceasta conversatie"
 
@@ -455,7 +455,7 @@ Exemplu de structură: # AI Log - Etapa 2, cu scopul, date de test, funcții fol
 
 ---
 
-## 15) Cererea finală
+## 15 Cererea finală
 User:
 "pune toata aceasta conversatie in acest fisier si zi ce model ai ai folosit"
 
@@ -464,7 +464,7 @@ Assistant:
 
 ---
 
-## 16) Concluzie
+## 16 Concluzie
 Toată conversația a fost dedicată:
 - dezvoltării logice JavaScript pentru proiectul de banking,
 - pregătirii pentru etapa 2,
