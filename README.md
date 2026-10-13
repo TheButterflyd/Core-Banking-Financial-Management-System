@@ -22,6 +22,11 @@ Tehnologii Web · Etapa 1: Mockup al interfeței (HTML și CSS)
 
 ## How to run
 Open `index.html` in a browser. No build step, no server.
+end
+npm install
+npm run dev
+Then open the address printed in the terminal (http://localhost:5173).
+
 
 ## AI usage
 | Tool | Used for |
@@ -31,12 +36,13 @@ Open `index.html` in a browser. No build step, no server.
 
 Details per stage: see the ai-log/ folder.
 
-## AI log for stage 1
-Details per stage: see the ai-log/ folder.
 
+## Stage 3: Vite and React project
+The app now lives in `frontend/`, built with Vite. The data from stage 2
+moved into the main component; the list is still printed raw.
 
 ## Status
 - [x] Stage 1: static mockup
 - [x] Stage 2: data logic in JavaScript
-- [ ] Stage 3: Vite and React projectons
+- [x] Stage 3: Vite and React projectons
 - [ ] Stage 4: backend transaction processing & tests
