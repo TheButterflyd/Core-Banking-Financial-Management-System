@@ -45,4 +45,4 @@ moved into the main component; the list is still printed raw.
 - [x] Stage 1: static mockup
 - [x] Stage 2: data logic in JavaScript
 - [x] Stage 3: Vite and React projectons
-- [ ] Stage 4: backend transaction processing & tests
+- [x] Stage 4: backend transaction processing & tests
