@@ -203,6 +203,30 @@ body {
 }
 
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.entity-list li.priority {
+  border-left: 4px solid var(--accent);
+  background: linear-gradient(135deg, #ffffff 0%, #eef4ff 100%);
+  box-shadow: 0 4px 14px rgba(0, 82, 204, 0.12);
+  order: -1; 
+}
+
+
+.badge-priority {
+  background: var(--accent);
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
 .badge {
   display: inline-block;
   padding: 4px 8px;
