@@ -8,7 +8,11 @@ const STARE_CONT = {
   blocked: "Blocată"
 };
 
-export default function AccountCard({ account }) {
+export default function AccountCard({
+  account,
+  onTogglePriority,
+  onDelete
+}) {
   return (
     <li className={account.status === "active" ? "account-card active" : "account-card blocked"}>
       <div className="account-top">
@@ -21,7 +25,7 @@ export default function AccountCard({ account }) {
       <p className="customer">{account.customer}</p>
 
       <div className="account-meta">
-        <span>{TIP_CONT[account.type]}</span>   
+        <span>{TIP_CONT[account.type]}</span>
         <span>{account.currency}</span>
       </div>
 
@@ -31,6 +35,23 @@ export default function AccountCard({ account }) {
           maximumFractionDigits: 2
         })} {account.currency}
       </strong>
+
+      <label className="account-toggle">
+        <input
+          type="checkbox"
+          checked={account.isPriority}
+          onChange={() => onTogglePriority(account.id)}
+        />
+        <span>Prioritar</span>
+      </label>
+
+      <button
+        className="btn-danger"
+        onClick={() => onDelete(account.id)}
+        aria-label={`Șterge contul ${account.accountNumber}`}
+      >
+        Șterge
+      </button>
     </li>
   );
 }
