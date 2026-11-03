@@ -136,7 +136,6 @@ moved into the main component; the list is still printed raw.
 ## Stage 5: local state and events
 | ID | Requirement | Where (permalink) | How to check |
 | :--- | :--- | :--- | :--- |
-
 | S5-R1 | accounts list kept in useState, in App | App.jsx#L.. | read |
 | S5-R2 | toggling priority changes state and card look | App.jsx#L..-L.., AccountCard.jsx#L.. | click a checkbox |
 | S5-R3 | delete removes the account item | App.jsx#L..-L.., AccountCard.jsx#L.. | click Delete |
@@ -154,4 +153,4 @@ moved into the main component; the list is still printed raw.
 [x] S5-R5 Actualizările sunt imutabile: nu există push, splice sau atribuiri pe elementele din state (folosire map, filter).
 [x] S5-R6 Butonul din antet comută între tema luminoasă și cea întunecată, în ambele direcții, indiferent de tema sistemului.
 [x] S5-R7 Consola nu conține avertismente; README-ul și ai-log/etapa-05.md sunt actualizate.
-[x] S5-R8 Commit-ul Stage 5: ... este publicat pe GitHub.
+[x] S5-R8 Commit-ul Stage 5: etapa 5 + readme modificat + etapa-05.md este publicat pe GitHub.
