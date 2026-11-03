@@ -67,7 +67,7 @@ moved into the main component; the list is still printed raw.
  [x] S1-R5 Un card de cont este marcat vizibil ca diferit (de exemplu, cont inactiv/blocat .blocked comparativ cu cele active .active).  
  [x] S1-R6 Pe desktop interfața afișează 2 coloane (formular + listă conturi), iar sub 700 px trece automat pe o singură coloană.   
  [x] S1-R7 Focusul este vizibil la navigarea cu tasta Tab pe butoane/inputuri, iar tema întunecată este lizibilă și contrastantă.   
- [x] S1-R8 Codul este publicat pe repozitoriul GitHub, cu commit-ul dedicat Stage 1: ... împins pe remote.   Criterii de calitate urmărite: toate culorile sunt definite prin variabile CSS (:root); tema întunecată funcționează fără reguli duplicate; cardurile bancare și butoanele reacționează la cursor (:hover, :focus-visible); marcajul pentru listă goală (clasa .empty) este pregătit; structura folosește elemente HTML semantice (<header>, <main>, <section>, <article>, <button>), nu exclusiv <div>-uri. 
+ [x] S1-R8 Codul este publicat pe repozitoriul GitHub, cu commit-ul dedicat Stage 1: ... împins pe remote.   Criterii de calitate urmărite: toate culorile sunt definite prin variabile CSS (:root); tema întunecată funcționează fără reguli duplicate; cardurile bancare și butoanele reacționează la cursor (:hover, :focus-visible); marcajul pentru listă goală (clasa .empty) este pregătit; structura folosește elemente HTML semantice (header, main, section, article, button), nu exclusiv div-uri. 
 
 ## Stage 2: data logic in JavaScript
 
@@ -102,17 +102,11 @@ moved into the main component; the list is still printed raw.
 | S3-R7 | commit “Stage 3” pushed | link to the commit | commit history |
 
 [x] S3-R1 Comanda npm run dev pornește fără erori pe calculatorul studentului în folderul frontend.
-
 [x] S3-R2 Pagina afișează numele aplicației (Core Banking) și contoarele de conturi (total, active, blocate) calculate dinamic direct din vectorul de date.
-
 [x] S3-R3 Datele inițiale sunt cele din README.md specifice temei alese (conturi bancare cu IBAN, titular, tip cont savings/checking, sold, monedă, stare), nu cele generice cu task-uri din exemplul de la curs.
-
 [x] S3-R4 Stilurile CSS din Etapa 1 (variabile, panouri, layout-ul responsive, tema luminoasă/întunecată) se regăsesc integrate în frontend/src/App.css.
-
 [x] S3-R5 Directorul node_modules/ este ignorat prin frontend/.gitignore (nu apare pe GitHub), iar comanda npm run build rulează și produce pachetul fără erori de compilare.
-
 [x] S3-R6 README.md conține secțiunea dedicată etapei Stage 3 actualizată, iar fișierul ai-log/etapa-03.md este completat conform cerințelor.
-
 [x] S3-R7 Commit-ul cu denumirea Stage 3: ... este creat și publicat (pushed) pe repozitoriul GitHub.
 ## Stage 4: backend transaction processing & tests
 
