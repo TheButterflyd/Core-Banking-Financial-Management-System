@@ -75,6 +75,7 @@ Details per stage: see the ai-log/ folder.
 | S2-R5 | original array unchanged after add | accounts.js#L.. | console line |
 | S2-R6 | README Stage 2 section + AI log | README.md, ai-log/etapa-02.md | read |
 | S2-R7 | commit “Stage 2” pushed | link to the commit | commit history |
+
 [x] S2-R1 Fișierul JavaScript (accounts.js sau conturi.js) este legat de pagina HTML prin tag-ul <script> și scrie un mesaj în consolă la încărcarea paginii.  
 [x] S2-R2 Array-ul de conturi conține cel puțin 3 elemente cu structura din schemă: id, titular/nume (customer), număr cont (accountNumber), tip (savings/checking), stare (active/blocked sau prioritate).  
 [x] S2-R3 Funcțiile de manipulare a conturilor (listare, numărare, căutare după IBAN/titular, adăugare cont nou, comutare stare/prioritate și ștergere cont) funcționează corect și afișează rezultatele în consolă.  
@@ -94,6 +95,7 @@ Details per stage: see the ai-log/ folder.
 | S3-R5 | node_modules ignored, build passes | frontend/.gitignore | npm run build |
 | S3-R6 | README Stage 3 section + AI log | README.md, ai-log/etapa-03.md | read |
 | S3-R7 | commit “Stage 3” pushed | link to the commit | commit history |
+
 [x] S3-R1 Comanda npm run dev pornește fără erori pe calculatorul studentului în folderul frontend.
 [x] S3-R2 Pagina afișează numele aplicației (Core Banking) și contoarele de conturi (total, active, blocate) calculate dinamic direct din vectorul de date.
 [x] S3-R3 Datele inițiale sunt cele din README.md specifice temei alese (conturi bancare cu IBAN, titular, tip cont savings/checking, sold, monedă, stare), nu cele generice cu task-uri din exemplul de la curs.
@@ -113,6 +115,7 @@ Details per stage: see the ai-log/ folder.
 | S4-R5 | state changes the card look | AccountCard.jsx#L.. | toggle a status/priority flag |
 | S4-R6 | README Stage 4 section + AI log | README.md, ai-log/etapa-04.md | read |
 | S4-R7 | commit “Stage 4” pushed | link to the commit | commit history |
+
 [x] S4-R1 Există cel puțin două componente în src/components/ (AccountList.jsx, AccountCard.jsx), câte una pe fișier.   
 [x] S4-R2 Cardul (AccountCard) primește datele contului prin props (account) și nu citește array-ul direct.  
 [x] S4-R3 Lista de conturi este randată cu map și key={account.id}, fără avertismente în consolă.   
