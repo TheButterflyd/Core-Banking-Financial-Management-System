@@ -134,6 +134,8 @@ moved into the main component; the list is still printed raw.
 [x] S4-R7 Commit-ul Stage 4: ... este publicat pe GitHub.
 
 ## Stage 5: local state and events
+| ID | Requirement | Where (permalink) | How to check |
+| :--- | :--- | :--- | :--- |
 
 | S5-R1 | accounts list kept in useState, in App | App.jsx#L.. | read |
 | S5-R2 | toggling priority changes state and card look | App.jsx#L..-L.., AccountCard.jsx#L.. | click a checkbox |
